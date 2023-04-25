@@ -1,5 +1,5 @@
 # starting base image
-FROM python:3.6.13
+FROM --platform linux/x86_64/arm64 python:3.6.13
 
 # getting github package
 RUN git clone https://github.com/jenbow/Mask_RCNN.git
